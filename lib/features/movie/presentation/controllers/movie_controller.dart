@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:movieapp/features/movie/domain/entities/movie_details_entity.dart';
 import 'package:movieapp/features/movie/domain/entities/movie_entity.dart';
 import 'package:movieapp/features/movie/domain/usecases/get_movies_usecase.dart';
+import 'package:movieapp/features/movie/presentation/dtos/movie_dto.dart';
 
 class MovieController {
   final GetMoviesUseCase _getMoviesUseCase;
