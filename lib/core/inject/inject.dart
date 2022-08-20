@@ -8,6 +8,7 @@ import 'package:movieapp/features/movie/data/repositories/get_movies_repository_
 import 'package:movieapp/features/movie/domain/repositories/get_movies_repository.dart';
 import 'package:movieapp/features/movie/domain/usecases/get_movies_usecase.dart';
 import 'package:movieapp/features/movie/domain/usecases/get_movies_usecase_imp.dart';
+import 'package:movieapp/features/movie/presentation/controllers/movie_controller.dart';
 
 class Inject {
   static initialize() {
