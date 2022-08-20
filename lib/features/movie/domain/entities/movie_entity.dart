@@ -35,4 +35,6 @@ class MovieEntity {
   late final String sortBy;
   late final int totalPages;
   late final int totalResults;
+
+  MovieEntity? copyWith({required List<MovieDetailsEntity> listMovies}) {}
 }
